@@ -1,0 +1,130 @@
+*{/* Configuração Global do Meu site */
+
+    /* Reset do navegador (Sempre colocar)*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Fim do RESET */
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  body{
+    display: flex;/* Ativação de tela flexivel */
+    flex-direction: column;/* Flexibilidade em colunas */
+    align-items: center;/* Centralização da horizontal*/
+  }
+
+header{
+    background: #4080BF;/* Cor de fundo */
+
+    width: 1210px;/* Largura */
+
+    height: 60px;/* Altura */
+
+    border-radius: 50px;/* Arredondamento da borda */
+
+    display: flex/* Ativação de flexibilidade de tela - Como se fosse auto layout no figma*/;
+
+    justify-content: space-between;/* Alinhamento dos elementos (como no figma) */
+
+    padding-left: 30px ;
+
+    padding-right: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    align-items: center;
+
+    margin-top: 19px;
+
+    margin-bottom: 35px;
+
+}
+
+
+header nav {
+  display: flex;
+  gap: 47px;  
+}
+
+header nav a{
+  text-decoration: none;
+  color: white;
+
+}
+
+header div{
+  display: flex;
+  gap: 41px;
+  color: white;
+}
+
+/* MAIN */
+main section{
+  display: flex;
+  gap: 127px;
+}
+main section div.textos-botoes{
+  width: 550px;
+  height: 368px;
+  margin-top: 72px;
+}
+
+main section div.textos-botoes h1{
+  font-size: 64px;
+  color:#BF7F40;
+  margin-bottom: 30px;
+
+}
+
+main section div.textos-botoes p{
+  font-size: 20px;
+
+}
+
+main section div.textos-botoes div{
+  background: #4080BF;
+  width: 289px;
+  height: 53px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #BF7F40;
+  margin-top: 45px;  
+}
+
+/* Section - Fundo - Imagem */
+
+main section div.fundo-imagem{
+  background: #407fbf76;
+  border-radius: 80px;
+}
+
+/* FOOTER */
+
+footer{
+  background: #BF7F40;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  flex-direction: column;
+  color: white;
+  margin-top: 86px;
+}
+
+footer div{
+  display: flex;
+  gap: 30px;
+  margin-top: 5px;
+}
+
+footer div a{
+  text-decoration: none;
+  color: white;
+}
