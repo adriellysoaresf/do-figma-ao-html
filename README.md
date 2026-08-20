@@ -16,9 +16,9 @@ Projeto desenvolvido para praticar a transformação de uma interface criada no 
 
 ## ✦ Sobre o projeto
 
-Este projeto foi desenvolvido durante meus estudos de Front-end com o objetivo de entender, na prática, como transformar um layout visual em código.
+Este projeto foi desenvolvido durante meus estudos de Front-end com o objetivo de entender na prática como transformar um layout visual em código.
 
-A interface trabalha uma identidade inspirada em uma alcateia, com hero section, navegação, chamada para ação e rodapé.
+A interface trabalha com hero section, navegação, chamada para ação e rodapé.
 
 ## ✦ O que pratiquei
 
